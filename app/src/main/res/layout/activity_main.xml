@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    android:paddingBottom="2dp"
+    android:paddingTop="20dp"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:id="@+id/modeButtonZeile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+    <ToggleButton
+        android:id="@+id/button_simple_view"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:checked="true"
+        android:onClick="modeButtonClicked"
+        android:tag = "simple_view"
+        android:textOff="Nur\nAnzeige"
+        android:textOn="Nur Anzeige"
+        android:textSize="12sp" />
+    <ToggleButton
+        android:id="@+id/button_alarm"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:checked="false"
+        android:onClick="modeButtonClicked"
+        android:tag = "alarm"
+        android:textOff="Alarm"
+        android:textOn="Alarm"
+        android:textSize="12sp"/>
+    <ToggleButton
+        android:id="@+id/button_simple_countdown"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:checked="false"
+        android:onClick="modeButtonClicked"
+        android:tag = "simple_countdown"
+        android:textOff="Countdown"
+        android:textOn="Countdown"
+        android:textSize="12sp" />
+    <ToggleButton
+        android:id="@+id/button_extra_time"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:checked="false"
+        android:onClick="modeButtonClicked"
+        android:tag = "extra_time"
+        android:textOff="Extrazeit"
+        android:textOn="Extrazeit"
+        android:textSize="12sp" />
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/fussZeile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#333333"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" />
+    <LinearLayout
+        android:id="@+id/buttonZeile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fussZeile"
+        android:background="#333333"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pause"
+            android:onClick="buttonStop" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:onClick="buttonReset" />
+
+    </LinearLayout>
+
+    <de.geihe.leiseOderLaut.ampel.AmpelView
+        android:id="@+id/anzeige"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/buttonZeile"
+        android:layout_below="@+id/modeButtonZeile"
+        android:background="@drawable/grad_background" />
+
+    <FrameLayout
+        android:id="@+id/anzeigeGross"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewPause"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textColor="#80ffffff" />
+
+</RelativeLayout>

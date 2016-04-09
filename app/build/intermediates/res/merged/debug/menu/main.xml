@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_quit"
+        android:icon="@android:drawable/ic_delete"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/quit"/>
+    <item
+        android:id="@+id/action_mute"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        android:orderInCategory="200"
+        android:showAsAction="always"
+        android:title="@string/action_countdown"/>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="300"
+        android:showAsAction="always"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_reset"
+        android:icon="@android:drawable/ic_media_rew"
+        android:orderInCategory="400"
+        android:showAsAction="always"
+        android:title="@string/reset"/>
+    <item
+        android:id="@+id/action_start"
+        android:icon="@android:drawable/ic_media_play"
+        android:orderInCategory="500"
+        android:showAsAction="always"
+        android:title="@string/start"/>
+    <item
+        android:id="@+id/action_pause"
+        android:icon="@android:drawable/ic_media_pause"
+        android:orderInCategory="600"
+        android:showAsAction="always"
+        android:title="@string/pause"/>
+
+</menu><!-- From: file:/D:/StudioProjects/leiseOderLaut/app/src/main/res/menu/main.xml -->

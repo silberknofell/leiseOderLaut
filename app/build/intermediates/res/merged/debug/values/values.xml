@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/StudioProjects/leiseOderLaut/app/src/main/res/values/array.xml -->
+    <eat-comment/>
+    <string-array name="eintraege_AlarmAusloesen">
+        <item>sofort</item>
+        <item>nach 5 Sekunden</item>
+        <item>nach 20 Sekunden</item>
+        <item>nach 1 Minute</item>
+        <item>nach 5 Minuten</item>
+    </string-array>
+    <string-array name="eintraege_abfrageIntervall">
+        <item>0,05 s</item>
+        <item>0,1 s</item>
+        <item>0,25 s</item>
+        <item>0,5 s</item>
+        <item>1 s</item>
+        <item>2 s</item>
+        <item>5 s</item>
+    </string-array>
+    <string-array name="werte_AlarmAusloesen">
+        <item>0</item>
+        <item>5</item>
+        <item>20</item>
+        <item>60</item>
+        <item>300</item>
+    </string-array>
+    <string-array name="werte_abfrageIntervall"> 
+        <item>50</item>
+        <item>100</item>
+        <item>250</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>5000</item>
+    </string-array>
+    <!-- From: file:/D:/StudioProjects/leiseOderLaut/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black">#ff000000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="countdown_prefs_normal">#66000000</color>
+    <color name="countdown_prefs_warning">#66FF0000</color>
+    <color name="timeviewRed">#eef77770</color>
+    <color name="timeviewYellow">#eeffff00</color>
+    <color name="timeview_Green">#dd80dd80</color>
+    <color name="timeview_extra">#dd05ecec</color>
+    <color name="timeviewcountdown">#ddcf18dc</color>
+    <declare-styleable name="ButtonBarContainerTheme"><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/></declare-styleable>
+    <!-- From: file:/D:/StudioProjects/leiseOderLaut/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="Huge">40dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/D:/StudioProjects/leiseOderLaut/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_countdown">Countdown</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="alarm">Alarm!</string>
+    <string name="app_name">Lärmampel</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="pause">Pause</string>
+    <string name="quit">Beenden</string>
+    <string name="reset">Reset</string>
+    <string name="start">Start</string>
+    <string name="title_activity_count_down_prefs">CountDownPrefs</string>
+    <!-- From: file:/D:/StudioProjects/leiseOderLaut/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+    <style name="ButtonBarButton"/>
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Alarm">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="alarmBlinker"
+            android:summary="Blinken bei Alarm ?"
+            android:summaryOff="nein"
+            android:summaryOn="ja"
+            android:title="Blinken" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="alarmTon"
+            android:summary="Tonsignal bei Alarm ?"
+            android:summaryOff="nein"
+            android:summaryOn="ja"
+            android:title="Alarmton" />
+        <RingtonePreference
+            android:dependency="alarmTon"
+            android:key="ringtone"
+            android:ringtoneType="alarm"
+            android:showDefault="false"
+            android:showSilent="false"
+            android:title="Alarmton" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\StudioProjects\leiseOderLaut\app\src\main\res"><file name="grad_background" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable\grad_background.xml" qualifiers="" type="drawable"/><file name="grad_background_mute" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable\grad_background_mute.xml" qualifiers="" type="drawable"/><file name="grad_background_pause" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable\grad_background_pause.xml" qualifiers="" type="drawable"/><file name="ic_menu_goto" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable\ic_menu_goto.png" qualifiers="" type="drawable"/><file name="ic_menu_preferences" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable\ic_menu_preferences.png" qualifiers="" type="drawable"/><file name="action_settings" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable-hdpi\action_settings.png" qualifiers="hdpi" type="drawable"/><file name="av_pause" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable-hdpi\av_pause.png" qualifiers="hdpi" type="drawable"/><file name="av_play" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable-hdpi\av_play.png" qualifiers="hdpi" type="drawable"/><file name="av_previous" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable-hdpi\av_previous.png" qualifiers="hdpi" type="drawable"/><file name="ic_launcher" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi" type="drawable"/><file name="ic_menu_preferences" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable-hdpi\ic_menu_preferences.png" qualifiers="hdpi" type="drawable"/><file name="navigation_cancel" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable-hdpi\navigation_cancel.png" qualifiers="hdpi" type="drawable"/><file name="action_settings" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable-mdpi\action_settings.png" qualifiers="mdpi" type="drawable"/><file name="av_pause" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable-mdpi\av_pause.png" qualifiers="mdpi" type="drawable"/><file name="av_play" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable-mdpi\av_play.png" qualifiers="mdpi" type="drawable"/><file name="av_repeat" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable-mdpi\av_repeat.png" qualifiers="mdpi" type="drawable"/><file name="ic_launcher" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi" type="drawable"/><file name="navigation_cancel" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable-mdpi\navigation_cancel.png" qualifiers="mdpi" type="drawable"/><file name="action_settings" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable-xhdpi\action_settings.png" qualifiers="xhdpi" type="drawable"/><file name="av_pause" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable-xhdpi\av_pause.png" qualifiers="xhdpi" type="drawable"/><file name="av_play" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable-xhdpi\av_play.png" qualifiers="xhdpi" type="drawable"/><file name="av_previous" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable-xhdpi\av_previous.png" qualifiers="xhdpi" type="drawable"/><file name="ic_launcher" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi" type="drawable"/><file name="navigation_cancel" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable-xhdpi\navigation_cancel.png" qualifiers="xhdpi" type="drawable"/><file name="ic_launcher" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi" type="drawable"/><file name="activity_blink" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\layout\activity_blink.xml" qualifiers="" type="layout"/><file name="activity_count_down_prefs" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\layout\activity_count_down_prefs.xml" qualifiers="" type="layout"/><file name="activity_main" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="preference_choose_endtime" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\layout\preference_choose_endtime.xml" qualifiers="" type="layout"/><file name="preference_choose_minutes" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\layout\preference_choose_minutes.xml" qualifiers="" type="layout"/><file name="blink" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\menu\blink.xml" qualifiers="" type="menu"/><file name="count_down_prefs" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\menu\count_down_prefs.xml" qualifiers="" type="menu"/><file name="main" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\menu\main.xml" qualifiers="" type="menu"/><file name="alarm1" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\raw\alarm1.mp3" qualifiers="" type="raw"/><file path="D:\StudioProjects\leiseOderLaut\app\src\main\res\values\array.xml" qualifiers=""><string-array name="eintraege_abfrageIntervall">
+        <item>0,05 s</item>
+        <item>0,1 s</item>
+        <item>0,25 s</item>
+        <item>0,5 s</item>
+        <item>1 s</item>
+        <item>2 s</item>
+        <item>5 s</item>
+    </string-array><string-array name="werte_abfrageIntervall"> 
+        <item>50</item>
+        <item>100</item>
+        <item>250</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>5000</item>
+    </string-array><string-array name="werte_AlarmAusloesen">
+        <item>0</item>
+        <item>5</item>
+        <item>20</item>
+        <item>60</item>
+        <item>300</item>
+    </string-array><string-array name="eintraege_AlarmAusloesen">
+        <item>sofort</item>
+        <item>nach 5 Sekunden</item>
+        <item>nach 20 Sekunden</item>
+        <item>nach 1 Minute</item>
+        <item>nach 5 Minuten</item>
+    </string-array></file><file path="D:\StudioProjects\leiseOderLaut\app\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="ButtonBarContainerTheme">
+        <attr format="reference" name="buttonBarStyle"/>
+        <attr format="reference" name="buttonBarButtonStyle"/>
+    </declare-styleable></file><file path="D:\StudioProjects\leiseOderLaut\app\src\main\res\values\colors.xml" qualifiers=""><color name="timeview_Green">#dd80dd80</color><color name="timeview_extra">#dd05ecec</color><color name="black_overlay">#66000000</color><color name="timeviewYellow">#eeffff00</color><color name="countdown_prefs_normal">#66000000</color><color name="countdown_prefs_warning">#66FF0000</color><color name="timeviewcountdown">#ddcf18dc</color><color name="timeviewRed">#eef77770</color><color name="black">#ff000000</color></file><file path="D:\StudioProjects\leiseOderLaut\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_vertical_margin">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="Huge">40dp</dimen></file><file path="D:\StudioProjects\leiseOderLaut\app\src\main\res\values\strings.xml" qualifiers=""><string name="reset">Reset</string><string name="hello_world">Hello world!</string><string name="start">Start</string><string name="action_settings">Einstellungen</string><string name="title_activity_count_down_prefs">CountDownPrefs</string><string name="app_name">Lärmampel</string><string name="alarm">Alarm!</string><string name="quit">Beenden</string><string name="pause">Pause</string><string name="action_countdown">Countdown</string></file><file path="D:\StudioProjects\leiseOderLaut\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style><style name="ButtonBarButton"/><style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style><style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style></file><file path="D:\StudioProjects\leiseOderLaut\app\src\main\res\values-sw720dp-land\dimens.xml" qualifiers="sw720dp-land"><dimen name="activity_horizontal_margin">128dp</dimen></file><file path="D:\StudioProjects\leiseOderLaut\app\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="FullscreenTheme" parent="android:Theme.Holo">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style><style name="FullscreenActionBarStyle" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style></file><file path="D:\StudioProjects\leiseOderLaut\app\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file><file path="D:\StudioProjects\leiseOderLaut\app\src\main\res\values-v21\styles.xml" qualifiers="v21"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file><file name="preferences_mode" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\xml\preferences_mode.xml" qualifiers="" type="xml"/><file name="preference_alarm" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\xml\preference_alarm.xml" qualifiers="" type="xml"/><file name="preference_anzeige" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\xml\preference_anzeige.xml" qualifiers="" type="xml"/><file name="preference_headers" path="D:\StudioProjects\leiseOderLaut\app\src\main\res\xml\preference_headers.xml" qualifiers="" type="xml"/></source><source path="D:\StudioProjects\leiseOderLaut\app\build\generated\res\rs\debug"/><source path="D:\StudioProjects\leiseOderLaut\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug"><source path="D:\StudioProjects\leiseOderLaut\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="ButtonBarContainerTheme"><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/></declare-styleable></configuration></mergedItems></merger>

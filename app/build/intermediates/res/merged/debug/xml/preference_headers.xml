@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:fragment="de.geihe.leiseOderLaut.preferences.AmpelPreferenceFragmentMode"
+        android:title="Modus"
+        android:icon="@android:drawable/ic_menu_agenda" />
+    <header
+        android:fragment="de.geihe.leiseOderLaut.preferences.AmpelPreferenceFragmentAlarm"
+        android:title="Alarm"
+        android:icon="@android:drawable/ic_menu_agenda" />
+    <header
+        android:fragment="de.geihe.leiseOderLaut.preferences.AmpelPreferenceFragmentAnzeige"
+        android:title="Anzeige"
+        android:icon="@android:drawable/ic_menu_agenda" />
+</preference-headers><!-- From: file:/D:/StudioProjects/leiseOderLaut/app/src/main/res/xml/preference_headers.xml -->

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="eintraege_AlarmAusloesen">
+        <item >sofort</item>
+        <item >nach 5 Sekunden</item>
+        <item >nach 20 Sekunden</item>
+        <item >nach 1 Minute</item>
+        <item >nach 5 Minuten</item>
+    </string-array>
+    <string-array name="werte_AlarmAusloesen">
+        <item >0</item>
+        <item >5</item>
+        <item >20</item>
+        <item >60</item>
+        <item >300</item>
+    </string-array>
+
+    <string-array name="eintraege_abfrageIntervall">
+        <item >0,05 s</item>
+        <item >0,1 s</item>
+        <item >0,25 s</item>
+        <item >0,5 s</item>
+        <item >1 s</item>
+        <item >2 s</item>
+        <item >5 s</item>
+    </string-array>
+    <string-array name="werte_abfrageIntervall"> 
+        <item >50</item>
+        <item >100</item>
+        <item >250</item>
+        <item >500</item>
+        <item >1000</item>
+        <item >2000</item>
+        <item >5000</item>
+    </string-array>    
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <color name="black">#ff000000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="countdown_prefs_normal">#66000000</color>
+    <color name="countdown_prefs_warning">#66FF0000</color>
+
+    <color name="timeviewRed">#eef77770</color>
+    <color name="timeviewYellow">#eeffff00</color>
+    <color name="timeview_Green">#dd80dd80</color>
+    <color name="timeviewcountdown">#ddcf18dc</color>
+    <color name="timeview_extra">#dd05ecec</color>
+</resources>

@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutCountdownPrefs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".CountDownPrefs" >
+
+    <TextView
+        android:id="@+id/tvEnde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Ende:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvEnde"
+        android:layout_below="@+id/tvEnde" />
+
+    <TextView
+        android:id="@+id/tvExtraZeit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/timePicker"
+        android:layout_below="@+id/timePicker"
+        android:layout_marginTop="15dp"
+        android:text="Extrazeit:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvExtraZeit"
+        android:layout_below="@+id/tvExtraZeit" >
+
+        <Button
+            android:id="@+id/button_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-" />
+
+        <EditText
+            android:id="@+id/edExtra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:inputType="number"
+            android:text="5"
+            android:textAppearance="?android:attr/textAppearanceLargeInverse" >
+        </EditText>
+
+        <Button
+            android:id="@+id/button_p"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/btCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="button_Cancel_click"
+            android:text="Abbrechen"
+            android:textAppearance="?android:attr/textAppearanceSmallInverse" />
+
+        <ToggleButton
+            android:layout_weight="1"         
+            android:id="@+id/toggleButtonModus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="einfach"
+            android:textOn="fortgeschritten" />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btOK"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:onClick="button_OK_click"
+            android:text="OK" />
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout><!-- From: file:/D:/StudioProjects/leiseOderLaut/app/src/main/res/layout/activity_count_down_prefs.xml -->

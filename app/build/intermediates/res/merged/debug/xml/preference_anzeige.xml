@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Anzeige">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="skalaAnzeigen"
+            android:summary="Lautstärkeskala anzeigen?"
+            android:summaryOff="nicht anzeigen"
+            android:summaryOn="anzeigen"
+            android:title="Skala" />
+
+        <ListPreference
+            android:defaultValue="250"
+            android:dialogTitle="Neue Anzeige nach"
+            android:entries="@array/eintraege_abfrageIntervall"
+            android:entryValues="@array/werte_abfrageIntervall"
+            android:key="abfrageIntervall"
+            android:title="Abfrageintervall" />
+    </PreferenceCategory>
+</PreferenceScreen><!-- From: file:/D:/StudioProjects/leiseOderLaut/app/src/main/res/xml/preference_anzeige.xml -->

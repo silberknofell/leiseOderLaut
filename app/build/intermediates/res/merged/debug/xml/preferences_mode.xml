@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Modus">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="nurAnzeige"
+            android:summary="Ampelanzeige ohne Alarm"
+            android:title="Nur Anzeige" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="alarm"
+            android:summary="Löst nach einer gewissen Rotzeit Alarm aus."
+            android:title="Alarm" />
+        <ListPreference
+            android:defaultValue="20"
+            android:dependency="alarm"
+            android:dialogTitle="Alarm auslösen ..."
+            android:entries="@array/eintraege_AlarmAusloesen"
+            android:entryValues="@array/werte_AlarmAusloesen"
+            android:icon="@android:drawable/arrow_down_float"
+            android:key="alarmZeit"
+            android:summary="auslösen nach ..."
+            android:title="Alarm" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="countdown"
+            android:summary="Zeit zählt rückwärts, ewnn die Ampel grün ist-"
+            android:title="Countdown" />
+        <de.geihe.leiseOderLaut.preferences.ChooseMinutesDialog
+            android:defaultValue="5"
+            android:key="countdownZeit"
+            android:summary="Minuten"
+            android:dependency="countdown"
+            android:title="Countdownzeit" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="extraZeit"
+            android:summary="Countdown läuft nur, wenn Apmel grün ist."
+            android:title="Extrazeit" />
+        <de.geihe.leiseOderLaut.preferences.ChooseMinutesDialog
+            android:defaultValue="5"
+            android:key="extrazeit"
+            android:summary="Minuten"
+            android:dependency="extraZeit"
+            android:title="Extrazeit" />
+        <de.geihe.leiseOderLaut.preferences.ChooseEndTimeDialog
+            android:defaultValue="790"
+            android:key="endzeit"
+            android:summary="Minuten"
+            android:dependency="extrazeit"
+            android:title="Endzeit" />
+    </PreferenceCategory>
+</PreferenceScreen><!-- From: file:/D:/StudioProjects/leiseOderLaut/app/src/main/res/xml/preferences_mode.xml -->

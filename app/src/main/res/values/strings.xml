@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lärmampel</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_countdown">Countdown</string>
+    <string name="alarm">Alarm!</string>
+
+    <string name="pause">Pause</string>
+    <string name="reset">Reset</string>
+    <string name="quit">Beenden</string>
+    <string name="start">Start</string>
+    <string name="title_activity_count_down_prefs">CountDownPrefs</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
